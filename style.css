@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #252734;
+  --secondaryColor: #333646;
+  --neon: #067f7f;
+  --acsentColor: #ff9100;
+}
+
+body {
+  background-color: black;
+  min-height: 900px;
+  font-family: "ubuntu", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.galery img{
+  transition: 1.2s;
+}
+.galery img:hover{
+  transform: scale(1.3) ;
+}
+/* navbar */
+.nav-link.active {
+  color: var(--neon) !important;
+}
+
+/* end navbar */
+/* section */
+section h1 {
+  color: white;
+  font-size: 2.5 rem;
+}
+
+#hero {
+  color: white;
+  min-height: 68vh;
+}
+
+#hero h1 {
+  font-size: 3 rem;
+}
+
+#hero h2 {
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 1.1 rem;
+  font-weight: 300;
+}
+
+.color-acsent {
+  color: var(--acsentColor);
+}
+
+/* cta */
+
+.btn-costum1 {
+  background-color: #067f7f;
+  text-align: center;
+  color: white;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2 rem;
+}
+
+.btn-costum1:hover {
+  box-shadow: 0 0 5px rgba(7, 227, 234, 0.8);
+}
+
+/* end section */
+.cv {
+  color: white;
+  cursor: pointer;
+  font-size: 1.2 rem;
+}
+
+.social-icon svg {
+  margin-right: 1em;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 35%;
+  height: 5px;
+  color: var(--neon);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+.gambar {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#skill {
+  min-height: 600px;
+  width: 100%;
+  color: rgb(246, 246, 243);
+}
+
+#skill img {
+  width: 12%;
+  margin: 10px;
+}
+
+#btnBack:hover {
+  background-color: #45a049;
+}
+
+.card {
+  background: none;
+}
+
+#skill .card:hover {
+  background-color: var(--neon);
+  color: whit;
+}
+
+.color {
+  text-shadow: 0 0 5px #09f4f4, 0 0 15px #00ffe5, 0 0 20px #13f2e7,
+    0 0 40px #00ffe5, 0 0 60px #00eeff, 0 0 10px #00fff7, 0 0 98px #ff0000;
+  color: #fff6a9;
+  font-family: "ubuntu", sans-serif;
+  text-align: center;
+}
+
+.efek-ngetik {
+  text-shadow: 0 0 5px #09f4f4, 0 0 15px #00ffe5, 0 0 20px #13f2e7,
+    0 0 40px #00ffe5, 0 0 60px #00eeff, 0 0 10px #00fff7, 0 0 98px #ff0000;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+#skill .card {
+  background-color: black;
+  height: 340px;
+  border: 2px solid var(--neon);
+}
+
+.skill-konten {
+  margin-top: 120px;
+}
+
+#sertifikat {
+  margin-top: -170px;
+  padding-top: 270px;
+  padding-bottom: 80px;
+  background-color: black;
+}
+
+#sertifikat p,
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+#sertifikat img {
+  width: 49%;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+#sertifikat img:hover {
+  transform: scale(1.1);
+}
+
+#portofolio .container {
+  padding: 80px 10px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.wa-web {
+  color: green;
+}
+
+.container-contact {
+  width: 70%;
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+input {
+  background: white;
+  border: none;
+}
+
+.us {
+  color: #00eeff;
+}
+
+@media screen and (max-width: 1200px) {
+  #hero p {
+    font-size: 0.9 rem;
+  }
+
+  #hero h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero img {
+    width: 60%;
+  }
+
+  .btn-costum1 {
+    width: 80%;
+  }
+
+  #about p {
+    text-align: justify !important;
+    text-indent: 1rem;
+  }
+
+  #skill .card h3 {
+    font-size: 1.3 rem;
+  }
+
+  #skill .card {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  hr {
+    width: 75%;
+  }
+
+  .banner {
+    margin-bottom: 20px;
+    margin-top: -35px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .navbar-toggler-icon {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #portofolio .col-md-12 {
+    flex-direction: column;
+  }
+}
+
+/* contact */
+
+h4 {
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+
+input[type="checkbox"] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+input {
+  border: 2px solid var(--neon);
+}
+
+textarea {
+  border: 2px solid var(--neon);
+}
+
+/* end contact */
