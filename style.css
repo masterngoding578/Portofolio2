@@ -13,6 +13,10 @@
 .text {
   color:white;
 }
+.banner img {
+
+  border-radius: 50%;
+}
 body {
   background-color: black;
   min-height: 900 px;
