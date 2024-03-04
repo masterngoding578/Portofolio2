@@ -15,10 +15,9 @@
 }
 body {
   background-color: black;
-  min-height: 900px;
+  min-height: 900 px;
   font-family: "ubuntu", sans-serif;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 .galery img{
   transition: 1.2s;
