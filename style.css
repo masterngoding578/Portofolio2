@@ -10,7 +10,9 @@
   --neon: #067f7f;
   --acsentColor: #ff9100;
 }
-
+.text {
+  color:white;
+}
 body {
   background-color: black;
   min-height: 900px;
