@@ -143,8 +143,8 @@ hr {
 
 .color {
   text-shadow: 0 0 5px #09f4f4, 0 0 15px #00ffe5, 0 0 20px #13f2e7,
-    0 0 40px #00ffe5, 0 0 60px #00eeff, 0 0 10px #00fff7, 0 0 98px #ff0000;
-  color: #fff6a9;
+    0 0 40px #00ffe5, 0 0 60px #00eeff, 0 0 10px #00fff7;
+  color: #ebf2f2;
   font-family: "ubuntu", sans-serif;
   text-align: center;
 }
