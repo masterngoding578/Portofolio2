@@ -25,6 +25,7 @@ body {
   background-color: black;
   font-family: "ubuntu", sans-serif;
   scroll-behavior: smooth;
+  overflow-x:hidden !important
 }
 
 .banner img {
