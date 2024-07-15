@@ -296,7 +296,9 @@ input {
 
 
   }
-
+  body{
+    overflow-x: hidden !important;
+  }
 
 
   h1 {
